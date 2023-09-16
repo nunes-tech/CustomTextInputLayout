@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CustomTextInputLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@android:color/holo_purple</item>
+        <item name="colorPrimaryVariant">@android:color/holo_purple</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorSecondary">@android:color/holo_blue_bright</item>
+        <item name="colorSecondaryVariant">@android:color/holo_blue_bright</item>
+        <item name="colorOnSecondary">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="MeuEstiloPersonalizado">
+        <item name="android:windowBackground">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="MeuEstiloTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@android:color/holo_purple</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="endIconTint">@android:color/holo_purple</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@android:color/holo_purple</item>
+        <item name="placeholderTextColor">@android:color/holo_purple</item>
+    </style>
+
+    <style name="Theme.CustomTextInputLayout" parent="Base.Theme.CustomTextInputLayout" />
+</resources>
